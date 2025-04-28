@@ -58,4 +58,8 @@ def create_voice(voice_type):
         from voice.tencent.tencent_voice import TencentVoice
 
         return TencentVoice()
+    elif voice_type == "flashtts":
+        from voice.flashtts.spark_voice import FlashTTSVoice
+
+        return FlashTTSVoice()
     raise RuntimeError

@@ -136,6 +136,9 @@ available_setting = {
     # elevenlabs 语音api配置
     "xi_api_key": "",    #获取ap的方法可以参考https://docs.elevenlabs.io/api-reference/quick-start/authentication
     "xi_voice_id": "",   #ElevenLabs提供了9种英式、美式等英语发音id，分别是“Adam/Antoni/Arnold/Bella/Domi/Elli/Josh/Rachel/Sam”
+    # FlashTTS 语音api配置
+    "flashtts_base": "",
+    "flashtts_voice": "",
     # 图像模型设置
     "image_recognition": False, # 是否开启图片识别
     # 服务时间限制，目前支持itchat
